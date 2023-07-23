@@ -1,5 +1,8 @@
 package com.shadmir.powerrings;
 
+import com.shadmir.powerrings.items.items;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -41,5 +44,16 @@ public class MyMod {
     // register server commands in this event handler (Remove if not needed)
     public void serverStarting(FMLServerStartingEvent event) {
         proxy.serverStarting(event);
+    }
+
+    public static CreativeTabs ringTab;
+
+    static {
+        ringTab = new CreativeTabs("ringTab") {
+            @Override
+            public Item getTabIconItem() {
+                return items.oneRing;
+            }
+        };
     }
 }

@@ -1,1 +1,10 @@
 item.basicRing.name=Basic Ring
+item.oneRing.name=The One Ring
+item.opposingRing.name=The Opposing Ring
+item.ringBarahir.name=Ring of Barahir
+item.ringDwarf.name=Ring of Dwarves
+item.ringMen.name=Ring of Men
+item.ringNarya.name=Narya
+item.ringVilya.name=Vilya
+item.ringNenya.name=Nenya
+itemGroup.ringTab=Rings of Power
