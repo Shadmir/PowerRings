@@ -1,10 +1,12 @@
 package com.shadmir.powerrings;
 
-import com.shadmir.powerrings.items.items;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import com.shadmir.powerrings.items.items;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -50,6 +52,7 @@ public class MyMod {
 
     static {
         ringTab = new CreativeTabs("ringTab") {
+
             @Override
             public Item getTabIconItem() {
                 return items.oneRing;
